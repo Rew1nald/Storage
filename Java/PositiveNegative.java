@@ -27,5 +27,6 @@ public class PositiveNegative
         
         input.close();
         System.exit(0);
+        
     }
 }
