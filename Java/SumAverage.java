@@ -1,3 +1,6 @@
+// Write a program in Java to display the first 15 natural
+// numbers and then display the sum and average.
+
 public class SumAverage
 {
     public static void main(String[] args)

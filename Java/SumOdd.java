@@ -1,3 +1,6 @@
+// Write a program in Java to display the first 10 natural
+// numbers and then display all odd numbers and get the sum.
+
 public class SumOdd
 {
     public static void main(String[] args)
