@@ -1,3 +1,6 @@
+// Using any looping statements, write a program in Java to display
+// the first 15 even numbers and display the sum of the first 15 odd numbers
+
 public class OddEvenNumbers
 {
     public static void main (String[] args)
