@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class BasicStackOperations {
-    public static void main(String[] args) {
+public class BasicStackOperations{
+    public static void main(String[] args){
         Stack<Integer> stack = new Stack<>();
 
         stack.push(67);
@@ -22,9 +22,8 @@ public class BasicStackOperations {
         stack.pop();
 
         System.out.println("Stack after pop operations: " + stack);
-
-        int first = stack.peek();
-        System.out.println("The top element is: " + first);
+        
+        System.out.println("The top element is: " + stack.firstElement());
 
         boolean isEmpty = stack.isEmpty();
         System.out.println("Is stack empty? " + isEmpty);
