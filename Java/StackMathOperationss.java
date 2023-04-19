@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StackMathOperations{
+public class StackMathOperationss{
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -11,6 +11,7 @@ public class StackMathOperations{
             int element = input.nextInt();
             stack.push(element);
         }
+        input.close();
 
         System.out.println("Inputted stack elements: " + stack);
 
