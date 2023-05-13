@@ -328,7 +328,7 @@ public class QuizBee{
             System.out.println("What would you like to do?");
             System.out.println("1 - Start the Quiz Bee");
             System.out.println("0 - Return to Login Screen");
-            System.out.print("Enter your choice");
+            System.out.print("Enter your choice: ");
             choice = input.nextInt();
 
             switch(choice){
@@ -358,5 +358,6 @@ public class QuizBee{
             quiz.displayScore();
             WaitForEnter();
         }
+    ClearScreen();
     }
 }
