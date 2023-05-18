@@ -284,6 +284,7 @@ public class QuizBee{
                 default:
                     System.out.print("Wrong option!");
                     WaitForEnter();
+                    ClearScreen();
                     break;
             }
         }while(choice != 0);
